@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LD41" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="code/game/object/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug/bin/LD41" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Release/bin/LD41" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="code/blankScene.cpp" />
+		<Unit filename="code/blankScene.hpp" />
+		<Unit filename="code/engine/animation.cpp" />
+		<Unit filename="code/engine/animation.hpp" />
+		<Unit filename="code/engine/assetManager.cpp" />
+		<Unit filename="code/engine/assetManager.hpp" />
+		<Unit filename="code/engine/gameLoop.cpp" />
+		<Unit filename="code/engine/gameLoop.hpp" />
+		<Unit filename="code/engine/logicManager.hpp" />
+		<Unit filename="code/engine/manageManager.hpp" />
+		<Unit filename="code/engine/renderManager.hpp" />
+		<Unit filename="code/engine/scene.hpp" />
+		<Unit filename="code/engine/sceneManager.cpp" />
+		<Unit filename="code/engine/sceneManager.hpp" />
+		<Unit filename="code/engine/textureManager.cpp" />
+		<Unit filename="code/engine/textureManager.hpp" />
+		<Unit filename="code/game/enemy/enemy.cpp" />
+		<Unit filename="code/game/enemy/enemy.hpp" />
+		<Unit filename="code/game/enemy/orc.cpp" />
+		<Unit filename="code/game/enemy/orc.hpp" />
+		<Unit filename="code/game/enemyManager.cpp">
+			<Option virtualFolder="code/game/object/" />
+		</Unit>
+		<Unit filename="code/game/enemyManager.hpp" />
+		<Unit filename="code/game/gameArea.cpp" />
+		<Unit filename="code/game/gameArea.hpp" />
+		<Unit filename="code/game/gameScene.cpp" />
+		<Unit filename="code/game/gameScene.hpp" />
+		<Unit filename="code/game/gui.cpp" />
+		<Unit filename="code/game/gui.hpp" />
+		<Unit filename="code/game/object/bullet.cpp" />
+		<Unit filename="code/game/object/bullet.hpp" />
+		<Unit filename="code/game/object/castle.cpp" />
+		<Unit filename="code/game/object/castle.hpp" />
+		<Unit filename="code/game/object/field.cpp" />
+		<Unit filename="code/game/object/field.hpp" />
+		<Unit filename="code/game/object/forest.cpp" />
+		<Unit filename="code/game/object/forest.hpp" />
+		<Unit filename="code/game/object/house.cpp" />
+		<Unit filename="code/game/object/house.hpp" />
+		<Unit filename="code/game/object/lumberjack.cpp" />
+		<Unit filename="code/game/object/lumberjack.hpp" />
+		<Unit filename="code/game/object/mag.cpp" />
+		<Unit filename="code/game/object/mag.hpp" />
+		<Unit filename="code/game/object/nothing.cpp" />
+		<Unit filename="code/game/object/nothing.hpp" />
+		<Unit filename="code/game/object/object.cpp" />
+		<Unit filename="code/game/object/object.hpp" />
+		<Unit filename="code/game/object/road.cpp" />
+		<Unit filename="code/game/object/road.hpp" />
+		<Unit filename="code/game/object/slingshot.cpp" />
+		<Unit filename="code/game/object/slingshot.hpp" />
+		<Unit filename="code/game/object/start.cpp" />
+		<Unit filename="code/game/object/start.hpp" />
+		<Unit filename="code/game/object/wheatField.cpp" />
+		<Unit filename="code/game/object/wheatField.hpp" />
+		<Unit filename="code/game/objectManager.cpp" />
+		<Unit filename="code/game/objectManager.hpp" />
+		<Unit filename="code/game/selector.cpp" />
+		<Unit filename="code/game/selector.hpp" />
+		<Unit filename="code/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

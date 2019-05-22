@@ -1,0 +1,310 @@
+# depslib dependency file v1.0
+1524405682 source:/home/qikcik/Pulpit/LD41/code/engine/gameLoop.cpp
+	"gameLoop.hpp"
+	<iostream>
+
+1524239007 /home/qikcik/Pulpit/LD41/code/engine/gameLoop.hpp
+	"renderManager.hpp"
+	"logicManager.hpp"
+	"sceneManager.hpp"
+
+1524236942 /home/qikcik/Pulpit/LD41/code/engine/renderManager.hpp
+	<SFML/Graphics.hpp>
+
+1524447834 source:/home/qikcik/Pulpit/LD41/code/main.cpp
+	"engine/gameLoop.hpp"
+	"blankScene.hpp"
+	"engine/assetManager.hpp"
+	"game/gameScene.hpp"
+	<iostream>
+
+1524385796 /home/qikcik/Pulpit/LD41/code/engine/logicManager.hpp
+	<SFML/Window/Event.hpp>
+
+1524238072 /home/qikcik/Pulpit/LD41/code/engine/sceneManager.hpp
+	"scene.hpp"
+
+1524447810 source:/home/qikcik/Pulpit/LD41/code/engine/sceneManager.cpp
+	"sceneManager.hpp"
+
+1524237854 /home/qikcik/Pulpit/LD41/code/engine/scene.hpp
+
+1524447696 source:/home/qikcik/Pulpit/LD41/code/blankScene.cpp
+	"blankScene.hpp"
+	"engine/sceneManager.hpp"
+	"game/gameScene.hpp"
+
+1524248019 /home/qikcik/Pulpit/LD41/code/blankScene.hpp
+	"engine/scene.hpp"
+	"engine/renderManager.hpp"
+	"engine/assetManager.hpp"
+
+1524411694 source:/home/qikcik/Pulpit/LD41/code/engine/textureManager.cpp
+	"textureManager.hpp"
+	<iostream>
+
+1524247343 /home/qikcik/Pulpit/LD41/code/engine/textureManager.hpp
+	<SFML/Graphics.hpp>
+	<map>
+	<string>
+
+1524249421 /home/qikcik/Pulpit/LD41/code/engine/assetManager.hpp
+	"textureManager.hpp"
+
+1524248834 source:/home/qikcik/Pulpit/LD41/code/engine/animation.cpp
+	"animation.hpp"
+
+1524248867 /home/qikcik/Pulpit/LD41/code/engine/animation.hpp
+	<SFML/Graphics.hpp>
+	"logicManager.hpp"
+
+1524249569 source:/home/qikcik/Pulpit/LD41/code/engine/assetManager.cpp
+	"assetManager.hpp"
+
+1524405517 source:/home/qikcik/Pulpit/LD41/code/game/gameScene.cpp
+	"gameScene.hpp"
+	"fstream"
+	"iostream"
+
+1524944975 /home/qikcik/Pulpit/LD41/code/game/gameScene.hpp
+	"../engine/scene.hpp"
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"enemy/orc.hpp"
+	"gameArea.hpp"
+	"gui.hpp"
+
+1524564515 source:/home/qikcik/Pulpit/LD41/code/game/gameArea.cpp
+	"gameArea.hpp"
+	<fstream>
+
+1524343686 /home/qikcik/Pulpit/LD41/code/game/gameArea.hpp
+	"../engine/scene.hpp"
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"enemyManager.hpp"
+	"objectManager.hpp"
+	"selector.hpp"
+	"enemy/orc.hpp"
+
+1524295904 source:/home/qikcik/Pulpit/LD41/code/game/object.cpp
+	"object.hpp"
+
+1524295742 /home/qikcik/Pulpit/LD41/code/game/object.hpp
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"../engine/assetManager.hpp"
+
+1524300168 /home/qikcik/Pulpit/LD41/code/game/enemy.hpp
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"../engine/logicManager.hpp"
+
+1524300221 source:/home/qikcik/Pulpit/LD41/code/game/enemy.cpp
+	"enemy.hpp"
+	<math.h>
+
+1524944933 source:/home/qikcik/Pulpit/LD41/code/game/enemy/enemy.cpp
+	"enemy.hpp"
+	<math.h>
+	"../gameScene.hpp"
+	"../../blankScene.hpp"
+	<iostream>
+
+1524943471 /home/qikcik/Pulpit/LD41/code/game/enemy/enemy.hpp
+	"../../engine/renderManager.hpp"
+	"../../engine/assetManager.hpp"
+	"../../engine/logicManager.hpp"
+	"../../engine/sceneManager.hpp"
+	"../object/bullet.hpp"
+
+1524440809 /home/qikcik/Pulpit/LD41/code/game/objectManager.hpp
+	"../engine/scene.hpp"
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"../engine/sceneManager.hpp"
+	"../engine/logicManager.hpp"
+	"object/object.hpp"
+	"object/nothing.hpp"
+	"object/road.hpp"
+	"object/forest.hpp"
+	"object/field.hpp"
+	"object/castle.hpp"
+	"object/start.hpp"
+
+1524403513 source:/home/qikcik/Pulpit/LD41/code/game/object/object.cpp
+	"object.hpp"
+	"../../engine/sceneManager.hpp"
+	"../gameScene.hpp"
+	"../../engine/logicManager.hpp"
+
+1524943565 /home/qikcik/Pulpit/LD41/code/game/object/object.hpp
+	"../../engine/renderManager.hpp"
+	"../../engine/assetManager.hpp"
+	"../../engine/assetManager.hpp"
+
+1524943587 source:/home/qikcik/Pulpit/LD41/code/game/objectManager.cpp
+	"objectManager.hpp"
+	"gameScene.hpp"
+
+1524943554 source:/home/qikcik/Pulpit/LD41/code/game/object/nothing.cpp
+	"nothing.hpp"
+	"slingshot.hpp"
+	"house.hpp"
+
+1524374249 /home/qikcik/Pulpit/LD41/code/game/object/nothing.hpp
+	"../objectManager.hpp"
+
+1524409116 source:/home/qikcik/Pulpit/LD41/code/game/object/road.cpp
+	"road.hpp"
+
+1524408092 /home/qikcik/Pulpit/LD41/code/game/object/road.hpp
+	"../objectManager.hpp"
+
+1524403422 source:/home/qikcik/Pulpit/LD41/code/game/object/archers.cpp
+	"archers.hpp"
+	"../gameScene.hpp"
+
+1524377602 /home/qikcik/Pulpit/LD41/code/game/object/archers.hpp
+	"../objectManager.hpp"
+	"../../engine/sceneManager.hpp"
+	"../../engine/logicManager.hpp"
+	<math.h>
+	<SFML/Graphics.hpp>
+	"../enemy/enemy.hpp"
+	"bullet.hpp"
+
+1524430944 /home/qikcik/Pulpit/LD41/code/game/selector.hpp
+	"../engine/logicManager.hpp"
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"../engine/sceneManager.hpp"
+	"object/slingshot.hpp"
+
+1524433142 source:/home/qikcik/Pulpit/LD41/code/game/selector.cpp
+	"selector.hpp"
+	<iostream>
+	"gameScene.hpp"
+
+1524943704 source:/home/qikcik/Pulpit/LD41/code/game/enemyManager.cpp
+	"enemyManager.hpp"
+	"gameScene.hpp"
+	<iostream>
+
+1524563216 /home/qikcik/Pulpit/LD41/code/game/enemyManager.hpp
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"../engine/sceneManager.hpp"
+	"../engine/logicManager.hpp"
+	"enemy/enemy.hpp"
+
+1524561231 source:/home/qikcik/Pulpit/LD41/code/game/enemy/orc.cpp
+	"orc.hpp"
+	<math.h>
+	<iostream>
+	"../gameScene.hpp"
+
+1524446981 /home/qikcik/Pulpit/LD41/code/game/enemy/orc.hpp
+	"enemy.hpp"
+
+1524237103 /home/qikcik/Pulpit/LD41/code/engine/manageManager.hpp
+
+1524444191 /home/qikcik/Pulpit/LD41/code/game/object/bullet.hpp
+	<vector>
+	"../../engine/renderManager.hpp"
+	"../../engine/assetManager.hpp"
+	"../../engine/logicManager.hpp"
+	"../../engine/sceneManager.hpp"
+	"../enemy/enemy.hpp"
+
+1524564908 source:/home/qikcik/Pulpit/LD41/code/game/object/bullet.cpp
+	"bullet.hpp"
+	"math.h"
+
+1524420996 source:/home/qikcik/Pulpit/LD41/code/game/gui.cpp
+	"gui.hpp"
+	<fstream>
+	"gameScene.hpp"
+
+1524401645 /home/qikcik/Pulpit/LD41/code/game/gui.hpp
+	"../engine/scene.hpp"
+	"../engine/renderManager.hpp"
+	"../engine/assetManager.hpp"
+	"../engine/sceneManager.hpp"
+	"../engine/logicManager.hpp"
+
+1524413649 /home/qikcik/Pulpit/LD41/code/game/object/forest.hpp
+	"../objectManager.hpp"
+
+1524419522 source:/home/qikcik/Pulpit/LD41/code/game/object/forest.cpp
+	"forest.hpp"
+	"slingshot.hpp"
+	"lumberjack.hpp"
+
+1524943316 /home/qikcik/Pulpit/LD41/code/game/object/slingshot.hpp
+	"../objectManager.hpp"
+	"../../engine/sceneManager.hpp"
+	"../../engine/logicManager.hpp"
+	<math.h>
+	<SFML/Graphics.hpp>
+	"../enemy/enemy.hpp"
+	"bullet.hpp"
+
+1524943411 source:/home/qikcik/Pulpit/LD41/code/game/object/slingshot.cpp
+	"slingshot.hpp"
+	"../gameScene.hpp"
+	"mag.hpp"
+
+1524419479 /home/qikcik/Pulpit/LD41/code/game/object/lumberjack.hpp
+	"../objectManager.hpp"
+
+1524433083 source:/home/qikcik/Pulpit/LD41/code/game/object/lumberjack.cpp
+	"lumberjack.hpp"
+	"slingshot.hpp"
+
+1524421520 /home/qikcik/Pulpit/LD41/code/game/object/field.hpp
+	"../objectManager.hpp"
+
+1524446760 source:/home/qikcik/Pulpit/LD41/code/game/object/field.cpp
+	"field.hpp"
+	"wheatField.hpp"
+
+1524423616 /home/qikcik/Pulpit/LD41/code/game/object/wheatField.hpp
+	"../objectManager.hpp"
+
+1524561538 source:/home/qikcik/Pulpit/LD41/code/game/object/wheatField.cpp
+	"wheatField.hpp"
+
+1524448212 source:/home/qikcik/Pulpit/LD41/code/game/object/house.cpp
+	"house.hpp"
+
+1524426110 /home/qikcik/Pulpit/LD41/code/game/object/house.hpp
+	"../objectManager.hpp"
+
+1524440673 source:/home/qikcik/Pulpit/LD41/code/game/object/castle.cpp
+	"castle.hpp"
+
+1524440710 /home/qikcik/Pulpit/LD41/code/game/object/castle.hpp
+	"../objectManager.hpp"
+
+1524440636 /home/qikcik/Pulpit/LD41/code/game/object/start.hpp
+	"../objectManager.hpp"
+
+1524440787 source:/home/qikcik/Pulpit/LD41/code/game/object/start.cpp
+	"start.hpp"
+	"slingshot.hpp"
+	"house.hpp"
+
+1524943432 source:/home/qikcik/Pulpit/LD41/code/game/object/mag.cpp
+	"mag.hpp"
+	"../gameScene.hpp"
+
+1524943433 /home/qikcik/Pulpit/LD41/code/game/object/mag.hpp
+	"../objectManager.hpp"
+	"../../engine/sceneManager.hpp"
+	"../../engine/logicManager.hpp"
+	<math.h>
+	<SFML/Graphics.hpp>
+	"../enemy/enemy.hpp"
+	"bullet.hpp"
+
